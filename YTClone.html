@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>You Tube Clone</title>
+  <link rel="icon" href="https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="menu">
+      <i class="material-icons">menu</i>
+      <img class="youlogo" src="assets/youlogo.png" />
+    </div>
+    <div class="searchbar">
+      <input type="text" name="search" id="search" placeholder="Search" />
+      <div class="search-btn">
+        <i class="material-icons search-icon">search</i>
+      </div>
+    </div>
+    <div class="feature-icons">
+      <i class="material-icons">video_call</i>
+      <i class="material-icons">apps</i>
+      <i class="material-icons">message</i>
+      <i class="material-icons">notifications</i>
+      <span class="bell-icon-badge">9+</span>
+      <i class="material-icons account-icon">account_circle</i>
+    </div>
+  </nav>
+  <main>
+    <section class="player">
+      <div class="youtube-player">
+      <iframe width="100%" height="470" src="https://www.youtube.com/embed/HED3Z3qRAgE" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="video-info">
+        <h1 class="title">
+          Oke Oka Lokam Female Cover | Sashi | Sid Sriram | Chandra Bose | Monica Velamuri
+        </h1>
+        <div class="video-toolbar">
+          <span class="video-views">
+            658 views
+          </span>
+          <span class="right-menu">
+            <div class="thumb-wrapper">
+              <a class="thumb-up-btn">
+                <i class="material-icons">thumb_up</i>
+                <span class="thumbs-count">87</span>
+              </a>
+
+              <a class="thumb-down-btn">
+                <i class="material-icons">thumb_down</i>
+                <span class="thumbs-count">0</span>
+              </a>
+            </div>
+
+            <a class="share-btn">
+              <i class="material-icons">reply</i>
+              <span>SHARE</span>
+            </a>
+
+            <a class="save-btn">
+              <i class="material-icons">playlist_add</i>
+              <span>SAVE</span>
+            </a>
+            <a class="options-btn">
+              <i class="material-icons">more_horiz</i>
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <section class="channel-info">
+        <div class="avatar">
+          <div></div>
+        </div>
+        <div class="description">
+          <h2>Monica Velamuri</h2>
+          <h3>401 subscribers</h3>
+          <p>Hello Viewers,</p>
+           <br> 
+           <p>After a very long time, here's a song for you to listen to and enjoy. This one is from the movie Sashi composed by Arun Chiluveru. If you like it, do not forget to share it with your friends.</p>
+           <br> 
+           <br> 
+           <p>Credits</p> 
+           <p>Song:   Oke Oka Lokam</p>
+           <p>Singer:  Monica Velamuri</p> 
+           <p>Video & Editing:   Sowrabh N R S</p> 
+           <br>
+           <br> 
+           <p>Original Song credits</p> 
+           <p>Movie: Sashi</p> 
+           <p>Singer: Sid Sriram</p> 
+           <p>Music: Arun Chiluveru</p> 
+           <p>Lyrics: Chandra Bose</p> 
+           <p>Cast: Aadi</p>
+          <p class="show-more">show more</p>
+        </div>
+        <div class="subscribe">
+          <button> subscribe <span>401</span></button>
+        </div>
+      </section>
+
+      <section class="comments">
+        <div class="comment-toolbar">
+          <div class="comment-count">
+            <span>1</span>
+            <span>Comments</span>
+          </div>
+          <div class="comment-count">
+            <i class="material-icons">sort</i>
+            <span>SORT BY</span>
+          </div>
+        </div>
+        <div class="add-comment">
+          <i class="material-icons account-icon">account_circle</i>
+          <input type="text" placeholder="Add a public comment...">
+        </div>
+
+        <div class="comment">
+          <div class="comment-avatar">
+            <img src="./assets/profile.png" alt="comment-avatar">
+          </div>
+          <div class="comment-info">
+            <h3>087 N K Chaitanya<span>3 weeks ago</span></h3>
+            <p>Extraordinary singing 👌👌👌 Awesome..... Euphonious</p>
+            <div>
+              <a class="thumb-up-btn">
+                <i class="material-icons">thumb_up</i>
+                <span class="thumbs-count">4</span>
+              </a>
+              <a class="thumb-up-btn">
+                <i class="material-icons">thumb_down</i>
+                <span class="thumbs-count">0</span>
+              </a>
+              <a>REPLY</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="sidebar">
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/cabin.jpg" alt="cabin" />
+          <span>17:30</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>Night Photography: Finding your way in the dark</h2>
+          <div class="channel">7th Era</div>
+          <div class="views">792K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (1).jpg" alt="cabin" />
+          <span>11:30</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>Night PHOTOGRAPHY</h2>
+          <div class="channel">Peter McKinnon</div>
+          <div class="views">2.7M views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (2).jpg" alt="cabin" />
+          <span>8:30</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>Night Street Photography</h2>
+          <div class="channel">Pierre T. Lambert</div>
+          <div class="views">183K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (3).jpg" alt="cabin" />
+          <span>4:23</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>Long Exposure PHOTOGRAPHY(NIGHT TIME</h2>
+          <div class="channel">Hayden Pedersen</div>
+          <div class="views">549K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (4).jpg" alt="cabin" />
+          <span>11:43</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>NEON PHOTOGRAPHY with BRANDON WOELFEL</h2>
+          <div class="channel">Peter McKinnon</div>
+          <div class="views">873K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (5).jpg" alt="cabin" />
+          <span>21:01</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>An Introduction To Macro Photography</h2>
+          <div class="channel">neil fisher</div>
+          <div class="views">150K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (6).jpg" alt="cabin" />
+          <span>3:21</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>How To Take Photos at Night | Brandon Woelfel</h2>
+          <div class="channel">Brandon Woelfel</div>
+          <div class="views">350K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (7).jpg" alt="cabin" />
+          <span>7:00</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>ADVENTUROUS NIGHT PHOTOGRAPHY Gavin Hoey</h2>
+          <div class="channel">7th Era</div>
+          <div class="views">3.8K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (8).jpg" alt="cabin" />
+          <span>10:00</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>Night Photography - without Flash</h2>
+          <div class="channel">Weekly Imogen</div>
+          <div class="views">1M views</div>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (9).jpg" alt="cabin" />
+          <span>2:44</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>How to shoot Night Portraits at Home</h2>
+          <div class="channel">gabpolitely</div>
+          <div class="views">139K views</div>
+        </div>
+      </div>
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (10).jpg" alt="cabin" />
+          <span>3:21</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>How To Take Photos at Night | Brandon Woelfel</h2>
+          <div class="channel">Brandon Woelfel</div>
+          <div class="views">350K views</div>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (11).jpg" alt="cabin" />
+          <span>4:23</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>Long Exposure PHOTOGRAPHY(NIGHT TIME</h2>
+          <div class="channel">Hayden Pedersen</div>
+          <div class="views">549K views</div>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (12).jpg" alt="cabin" />
+          <span>11:43</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>NEON PHOTOGRAPHY with BRANDON WOELFEL</h2>
+          <div class="channel">Peter McKinnon</div>
+          <div class="views">873K views</div>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (13).jpg" alt="cabin" />
+          <span>1:43</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>Dediction</h2>
+          <div class="channel">Ryan Reynolds</div>
+          <div class="views">39K views</div>
+        </div>
+      </div>
+
+      <div class="suggested-video">
+        <div class="thumbnail">
+          <img src="./assets/thumb (14).jpg" alt="cabin" />
+          <span>2343</span>
+        </div>
+        <div class="thumbnail-info">
+          <h2>My Video Went Viral. Here's Why</h2>
+          <div class="channel">Veritasium</div>
+          <div class="views">2.1M views</div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+</body>
+
+</html>
